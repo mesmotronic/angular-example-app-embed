@@ -1,6 +1,6 @@
 # App embedding example for Angular
 
-This project demonstrates the simplest possible method of embedding a Mesmotronic HTML5 web application using an Angular 2+ component.
+This project demonstrates the simplest possible method of embedding one of Mesmotronic's HTML5 web applications into a web page using an Angular 2+ component.
 
 In this example, we embed an application called `HelloApp` from the `mesmotronic` namespace into a styled element.
 
