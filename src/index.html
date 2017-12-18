@@ -10,16 +10,18 @@
 <body>
   <app-embed></app-embed>
   <script>
-    var HelloApp = function(options) {
-      var el = options.el;
-      el.style.display = 'flex';
-      el.style.alignContent = 'center';
-      el.style.alignItems = 'center';
-      el.style.justifyContent = 'center';
-      el.style.backgroundColor = '#FAFAFA';
-      el.innerHTML = '<h1 style="font:36px sans-serif;">Hello '+options.name+'!</h1>'
-    };
-    window.mesmotronic = {HelloApp:HelloApp};
+    (function() {
+      var HelloApp = function(options) {
+        var el = options.el;
+        el.style.display = 'flex';
+        el.style.alignContent = 'center';
+        el.style.alignItems = 'center';
+        el.style.justifyContent = 'center';
+        el.style.backgroundColor = '#FAFAFA';
+        el.innerHTML = '<h1 style="font:36px sans-serif;">Hello '+options.name+'!</h1>'
+      };
+      window.mesmotronic = {HelloApp:HelloApp};
+    })();
   </script>
 </body>
 </html>
