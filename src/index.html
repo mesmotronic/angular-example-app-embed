@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>App embedding example for Angular</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <app-embed></app-embed>
+  <script>
+    var HelloApp = function(options) {
+      var el = options.el;
+      el.style.display = 'flex';
+      el.style.alignContent = 'center';
+      el.style.alignItems = 'center';
+      el.style.justifyContent = 'center';
+      el.style.backgroundColor = '#FAFAFA';
+      el.innerHTML = '<h1 style="font:36px sans-serif;">Hello '+options.name+'!</h1>'
+    };
+    window.mesmotronic = {HelloApp:HelloApp};
+  </script>
+</body>
+</html>
