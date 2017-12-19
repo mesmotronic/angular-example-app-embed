@@ -12,8 +12,8 @@ For the purpose of this example, `HelloApp` is defined inside a `<script>` tag i
 
 ## Significant files
 
-- `index.html` where the application is loaded
-- `app.component.js` where the application is embedded
+- `index.html` is where the application is loaded
+- `app.component.js` is where the application is embedded
 
 ## See it in action
 
